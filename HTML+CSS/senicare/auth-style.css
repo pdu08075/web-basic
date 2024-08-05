@@ -1,18 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nanum+Gothic&display=swap');
-
-@font-face {
-    font-family: 'Pretendard';
-    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-}
-
-body {
-    margin: 0px;
-    font-family: 'Pretendard';
-}
-
-#sign-in-wrapper {
+#auth-wrapper {
     display: flex;
 
     width: 100%;
@@ -21,13 +7,13 @@ body {
     min-height: 964px;
 }
 
-.sign-in-image {
+.auth-image {
     width: 830px;
     background-image: url(./images/main-image.png);
-    background-image: cover;
+    background-size: cover;
 }
 
-.sign-in-container {
+.auth-container {
     flex: 1;
 
     display: flex;
@@ -35,7 +21,7 @@ body {
     align-items: center;
 }
 
-.sign-in-box {
+.auth-box {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -62,7 +48,7 @@ body {
     height: 30px;
 
     background-image: url(./images/logo.png);
-    background-image: 100% 100%;
+    background-size: 100% 100%;
 }
 
 .input-container {
@@ -81,7 +67,20 @@ body {
     gap: 16px;
 }
 
-.divider {
-    width: 100%;
-    border-bottom: 1px solid rgba(238, 238, 238, 1);
+.sns-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.sns-container .title {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--gray-color);
+}
+
+.sns-button-container {
+    display: flex;
+    gap: 24px;
 }
