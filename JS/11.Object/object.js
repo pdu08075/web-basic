@@ -126,19 +126,24 @@ for (var key in seojihoon) {
 
 console.log('==============================');
 
-// 아래 네 줄은 얕은 복사
 var soonJong = goJong;
+// 바로 아래는 얕은 복사
 // soonJong.name = '이척';
-
 // console.log(soonJong);
 // console.log(goJong);
 
-// 아래는 깊은 복사
+// 바로 아래는 깊은 복사 방법들
 soonJong = {     // 중괄호를 쳐서 만들었기 때문에 새로운 객체
     name: goJong.name,
     age: goJong.age,
-    address: goJong.address
-};
+    address: goJong.address};
+
+var soonJong = {};
+for (var key in goJong) {
+    soonJong[key] = goJong[key];
+}
+
+var soonJong = { ...goJong };
 soonJong.name = '이척';
 console.log(soonJong);
 console.log(goJong);
