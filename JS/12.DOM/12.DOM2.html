@@ -180,7 +180,7 @@
         */
         var signUpButtonElement = document.createElement('button');
         var signUpButtonText = document.createTextNode('회원가입');
-        signUpButtonElement.append(signUpButtonText);
+        signUpButtonElement.appendChild(signUpButtonText);
         signUpButtonElement.className = 'custom-button';
 
         var buttonBoxElement = document.getElementById('button-box');
@@ -194,7 +194,7 @@
             - position => (beforebegin, afterbegin, beforeend, afterend)
             - 두번째 매개변수는 문자열로 된 HTML
         */
-        buttonBoxElement.insertAdjacentHTML('beforeend', '<button class="custom-button">회원가입</button>');
+        buttonBoxElement.insertAdjacentHTML('afterbegin', '<button class="custom-button">회원가입</button>');
 
 
         console.log('==============================');
