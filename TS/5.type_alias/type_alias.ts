@@ -25,12 +25,14 @@ const human1: IHuman = {
 // 2. type 이용
 type THuman = {
     name: string,       // 객체에 대한 중괄호라 콤마 작성
-    age: number
+    age: number,
+    address: string
 }
 
 const human2: THuman = {
     name:'홍길동',
-    age: 23
+    age: 23,
+    address: '부산시'
 }
 
 // 3. class 이용

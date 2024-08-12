@@ -1,0 +1,177 @@
+/* @font-face {
+    font-family: KakaoSmall;
+    font-weight: 300;
+    src: url(//t1.kakaocdn.net/kakaocorp/kakaocorp/service/fonts/KakaoSmall-Light-v1.0.woff2) format("woff2"),url(//t1.kakaocdn.net/kakaocorp/kakaocorp/service/fonts/KakaoSmall-Light-v1.0.woff) format("woff")
+}
+
+@font-face {
+    font-family: KakaoSmall;
+    font-weight: 400;
+    src: url(//t1.kakaocdn.net/kakaocorp/kakaocorp/service/fonts/KakaoSmall-Regular-v1.0.woff2) format("woff2"),url(//t1.kakaocdn.net/kakaocorp/kakaocorp/service/fonts/KakaoSmall-Regular-v1.0.woff) format("woff")
+}
+
+@font-face {
+    font-family: KakaoSmall;
+    font-weight: 700;
+    src: url(//t1.kakaocdn.net/kakaocorp/kakaocorp/service/fonts/KakaoSmall_Bold_OTF.woff2) format("woff2"),url(//t1.kakaocdn.net/kakaocorp/kakaocorp/service/fonts/KakaoSmall_Bold_OTF.woff) format("woff")
+}
+
+@font-face {
+    font-family: KakaoBig;
+    font-weight: 400;
+    src: url(//t1.kakaocdn.net/kakaocorp/kakaocorp/service/fonts/KakaoBig-Regular-v1.0.woff2) format("woff2"),url(//t1.kakaocdn.net/kakaocorp/kakaocorp/service/fonts/KakaoBig-Regular-v1.0.woff) format("woff")
+}
+
+@font-face {
+    font-family: KakaoBig;
+    font-weight: 700;
+    src: url(//t1.kakaocdn.net/kakaocorp/kakaocorp/service/fonts/KakaoBig-Bold-v1.0.woff2) format("woff2"),url(//t1.kakaocdn.net/kakaocorp/kakaocorp/service/fonts/KakaoBig-Bold-v1.0.woff) format("woff")
+}
+
+@font-face {
+    font-family: KakaoBig;
+    font-weight: 800;
+    src: url(//t1.kakaocdn.net/kakaocorp/kakaocorp/service/fonts/KakaoBig_ExtraBold_OTF.woff2) format("woff2"),url(//t1.kakaocdn.net/kakaocorp/kakaocorp/service/fonts/KakaoBig_ExtraBold_OTF.woff) format("woff")
+} */
+
+@font-face {
+    font-family: Kakao;
+    src: url(../font/AppleSDGothicNeoR.ttf)
+}
+
+body {
+    font-family: Kakao, Apple SD Gothic Neo, Malgun Gothic, 맑은 고딕, sans-serif;
+    /* margin: 0px; */
+    width: 1728px;
+}
+
+#wrapper {
+    width: 100%;
+}
+
+#wrapper-top {
+    display: flex;
+    /* gap: 16px; */
+}
+
+#wrapper-top div {
+    background-color: #F3F3F3;
+    border-radius: 20px;
+}
+
+#wrapper-bottom {
+    margin-top: 16px;
+    display: flex;
+    /* gap: 16px; */
+    width: 100%;
+}
+
+#wrapper-bottom div {
+    background-color: #F3F3F3;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    height: 38px;
+}
+
+.wrapper-bottom-in {
+    justify-content: space-between;
+    padding: 36px 40px;
+    flex: 1;
+    text-align: center;
+    margin: 0px 8px;
+}
+
+.wrapper-bottom-in-title {
+    font-size: 26px;
+}
+
+.move-link-text {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.wrapper-top-a {
+    width: 50%;
+    height: 126px;
+    padding: 36px 40px;
+    margin: 0px 8px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title-in {
+    display: flex;
+    align-items: center;
+    gap: 14.5px;
+    font-weight: 500;
+}
+
+.title-tag p {
+    padding: 4px 12px;
+    margin: 2.5px 0px 0px;
+    background-color: #FFFFFF;
+    font-size: 14px;
+    color: #000000;
+    border-radius: 5px;
+}
+
+.title-date {
+    font-size: 14px;
+}
+
+.content {
+    height: 76px;
+    margin-top: 12px;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.wrapper-top-b {
+    width: 50%;
+    height: 126px;
+    padding: 36px 40px;
+    margin: 0px 8px;
+}
+
+.move-link {
+    align-items: center;
+}
+
+
+.move-link-arrow p {
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+    border-radius: 50%;
+    color: #FFFFFF;
+    margin-left: 8px;
+    
+    cursor: pointer;
+}
+
+.speaker-img {
+    background-image: url(https://t1.kakaocdn.net/kakaocorp/kakaocorp/admin/6562f7bc017800001.png);
+    width: 40px;
+    height: 40px;
+
+    background-size: 36px 36px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.option-img {
+    
+    background-image: url(https://cdn-icons-png.flaticon.com/512/64/64576.png);
+    width: 24px;
+    height: 24px;
+
+    background-size: 18px 18px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}

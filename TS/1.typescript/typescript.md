@@ -30,4 +30,5 @@ tsc --init
 
 ```bash
 npm install -g ts-node
+ts-node 파일명.ts
 ```
